@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Ambientes Virtuais (NÃO SUBIR - CRUCIAL) ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Dados (LIBERADOS PARA SUBIR) ---
+# Comentei as linhas abaixo para permitir que seus colegas baixem os dados
+# Se algum arquivo passar de 100MB, você precisará ignorá-lo novamente
+# data/
+# *.csv
+# *.xlsx
+# *.parquet
+# *.xls
+
+# --- Jupyter Notebooks ---
+# Ignora os checkpoints automáticos do Colab/Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- IDEs e Editores ---
+.vscode/
+.idea/
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
