@@ -81,6 +81,6 @@ Este projeto tem fins estritamente educacionais e acadêmicos. As previsões ger
 ---
 
 ## ✒️ Autor
-Desenvolvido como parte do Tech Challenge (Fase 3) da Pós-Tech Data Analytics.
+Desenvolvido como parte do Tech Challenge (Fase 2) da Pós-Tech Data Analytics.
 """
 
