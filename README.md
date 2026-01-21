@@ -74,7 +74,7 @@ Uma bateria de algoritmos compete para definir a melhor predição:
 ### Instalação
 1.  Clone o repositório:
     ```bash
-    git clone [https://github.com/SEU-USUARIO/NOME-DO-REPO.git]
+    git clone [https://github.com/DeleteTableSemWhere/IBOV_Predictor.git]
     ```
 2.  Instale as dependências:
     ```bash
@@ -90,9 +90,13 @@ Basta abrir o Jupyter Notebook e rodar todas as células. O pipeline irá:
 ---
 ## 📊 Resultados Alcançados
 
-O modelo final selecionado (**Logistic Regression / Random Forest**) superou o benchmark aleatório (50%) e a média de mercado.
+O modelo final selecionado (**XGBoost**) superou o benchmark (75%) e a média de mercado (62%).
 
-* **Acurácia em Teste:** ~62% (Consistente com dados reais e limpos).
+![Gráfico de Predições no Tempo](predicoes_tempo.png)
+
+* **Acurácia em Teste:** 77,8% (Consistente com dados reais e limpos).
+
+![Gráfico Matriz de confusão](feature_importance.png)
 * **Consistência:** O modelo demonstrou robustez ao migrar de dados estáticos para dados dinâmicos da API, mantendo a performance sem overfitting agressivo.
 
 ---
